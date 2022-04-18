@@ -42,20 +42,22 @@ section img {
 
 section img#moon {
     mix-blend-mode:lighten;
+    top:-100%;
 }
 
 section img#mountains_behind {
-    bottom: 0;
+    bottom: -100%;
     top: initial;
 }
 
 section img#mountains_front {
-    bottom: 0;
+    bottom: -150%;
     top: initial;
     z-index: 10;
 }
 
 section img#stars {
+    top: -100%;
     height: 100%;
     object-fit: cover;
 }
@@ -65,6 +67,7 @@ section h2 {
     color: var(--white-color);
     font-size: 8vw;
     font-weight: 200;
+    margin-right: -2 500px;
 }
 
 section h2 span {
